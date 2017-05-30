@@ -70,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
     <div class="jumbotron">
         <div class="container">
-            <h1>Simple PHP Contact Form</h1>
+            <h1>This is a header</h1>
             <p>A Simple Contact Form developed in PHP with HTML5 Form validation. Has a fallback in <strike>jQuery</strike> pure JavaScript for browsers that do not support HTML5 form validation.</p>
         </div>
     </div>
