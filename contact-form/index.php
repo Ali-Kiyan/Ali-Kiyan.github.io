@@ -71,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="jumbotron">
         <div class="container">
             <h1>This is a header</h1>
-            <p>A Simple Contact Form developed in PHP with HTML5 Form validation. Has a fallback in <strike>jQuery</strike> pure JavaScript for browsers that do not support HTML5 form validation.</p>
+            <p>A Simple Contact Form developed in PHP with HTML5 Form validation. Has a fallback in <strike>jQuery</strike> pure JavaScript for browsers that do not support HTML5 form validation.<a href="https://ali-kiyan.github.io/advanced_database.pdf">ad</a></p>
         </div>
     </div>
     <?php if(!empty($emailSent)): ?>
