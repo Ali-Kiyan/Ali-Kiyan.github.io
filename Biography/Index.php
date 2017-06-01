@@ -47,10 +47,10 @@
       web development but I have never wanted to restrict myself and I would like to develop applications and web applications as well.</p>
     <span class="w3-col m6 w3-hide-small w3-padding-large ">
         <p class="fa fa-university">  What I have done so far</p>
-        <a href="http://localhost:8888/Biography/files/Advanced Databases-Case Study.pdf"class="w3-button w3-hover-light-green w3-animate-left"><i class="fa fa-download w3-margin-right"></i>Advanced Databases-Case Study</a>
-    <a href="http://localhost:8888/Biography/files/Advanced_database.pdf" class="w3-button w3-hover-light-blue w3-animate-left"><i class="fa fa-download w3-margin-right "></i>Advanced_database</a>
-    <a href="http://localhost:8888/Biography/files/SemanticWeb&InformationExtraction-CaseStudy.pdf" class="w3-button w3-hover-pale-red w3-animate-left"><i class="fa fa-download w3-margin-right"></i>Semantic_Web & Information Extraction-Case Study</a>
-    <a href="http://localhost:8888/Biography/files/Semantic_Web&InformationExtration.pdf" class="w3-button w3-hover-brown w3-animate-left"><i class="fa fa-download w3-margin-right"></i>Semantic_Web & Information Extraction</a>
+        <a href="Https://Ali-Kiyan.github.io/Biography/Files/Advanced Databases-Case Study.pdf"class="w3-button w3-hover-light-green w3-animate-left"><i class="fa fa-download w3-margin-right"></i>Advanced Databases-Case Study</a>
+    <a href="Https://Ali-Kiyan.github.io/Biography/Files/Advanced_database.pdf" class="w3-button w3-hover-light-blue w3-animate-left"><i class="fa fa-download w3-margin-right "></i>Advanced_database</a>
+    <a href="Https://Ali-Kiyan.github.io/Biography/Files/SemanticWeb&InformationExtraction-CaseStudy.pdf" class="w3-button w3-hover-pale-red w3-animate-left"><i class="fa fa-download w3-margin-right"></i>Semantic_Web & Information Extraction-Case Study</a>
+    <a href="Https://Ali-Kiyan.github.io/Biography/Files/Semantic_Web&InformationExtration.pdf" class="w3-button w3-hover-brown w3-animate-left"><i class="fa fa-download w3-margin-right"></i>Semantic_Web & Information Extraction</a>
 
     </span>
 
@@ -97,7 +97,7 @@
 </div>
 
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-    <a href="http://localhost:8888/Biography/files/Ali_kiyan_CV.pdf" class="w3-button w3-hover-white w3-animate-left"><i class="fa fa-download w3-margin-right"></i>Ali Kiyan CV</a>
+    <a href="Https://Ali-Kiyan.github.io/Biography/Files/Ali_kiyan_CV.pdf" class="w3-button w3-hover-white w3-animate-left"><i class="fa fa-download w3-margin-right"></i>Ali Kiyan CV</a>
 <!--
   <div class="w3-quarter w3-section">
     <span class="w3-xlarge">HTML</span><br>
@@ -134,8 +134,8 @@
 
             <img style ="width:50%;" src="images/Green_Environment_Demo.png" onclick="onClick(this)" class="w3-hover-opacity">
         </br>
-        <a href="http://localhost:8888/Biography/files/Green_environment_Description.pdf" class="w3-button w3-hover-pale-green"><i class="fa fa-download w3-margin-right"></i>Green Environment Description</a>
-        <a href="http://localhost:8888/Biography/files/Green_environment.zip" class="w3-button w3-hover-pale-blue"><i class="fa fa-download w3-margin-right"></i>Green Environment Pages</a>
+        <a href="Https://Ali-Kiyan.github.io/Biography/Files/Green_environment_Description.pdf" class="w3-button w3-hover-pale-green"><i class="fa fa-download w3-margin-right"></i>Green Environment Description</a>
+        <a href="Https://Ali-Kiyan.github.io/Biography/Files/Green_environment.zip" class="w3-button w3-hover-pale-blue"><i class="fa fa-download w3-margin-right"></i>Green Environment Pages</a>
         </br>
 
     </div>

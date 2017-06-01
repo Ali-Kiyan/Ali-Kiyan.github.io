@@ -18,19 +18,19 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('http://localhost:8888/Biography/images/11.jpg');
+    background-image: url('Https://Ali-Kiyan.github.io/Biography/images/11.jpg');
     min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url('http://localhost:8888/Biography/images/4.jpg');
+    background-image: url('Https://Ali-Kiyan.github.io/Biography/images/4.jpg');
     min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url('http://localhost:8888/Biography/images/44.jpeg');
+    background-image: url('Https://Ali-Kiyan.github.io/Biography/images/44.jpeg');
     min-height: 400px;
 }
 
