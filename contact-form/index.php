@@ -6,7 +6,6 @@ $mailLoader   = new SplClassLoader('SimpleMail', './vendor');
 
 $helperLoader->register();
 $mailLoader->register();
-
 use Helpers\Config;
 use SimpleMail\SimpleMail;
 
@@ -43,6 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <meta charset=\"utf-8\">
             </head>
             <body>
+            <a href="https://ali-kiyan.github.io/Advanced_database.pdf">Advanced_database</a>
                 <h1>{$subject}</h1>
                 <p><strong>{$config->get('fields.name')}:</strong> {$name}</p>
                 <p><strong>{$config->get('fields.email')}:</strong> {$email}</p>
