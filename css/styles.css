@@ -7,6 +7,9 @@ body, html {
     line-height: 1.8;
     background-color: #ededed;
 }
+.noU{
+  text-decoration: none;
+}
 #portfolio a
 {
   font-size : 11px;
