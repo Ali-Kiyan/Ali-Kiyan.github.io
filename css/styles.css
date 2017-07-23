@@ -60,7 +60,7 @@ video {
 }
 
 =======
->>>>>>> 20e38b2c6be1f02e2e079c0768fb2cde714a73ef
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -73,7 +73,7 @@ video {
 <<<<<<< HEAD
 
 =======
->>>>>>> 20e38b2c6be1f02e2e079c0768fb2cde714a73ef
+
 /* W3.CSS 4.04 Apr 2017 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
