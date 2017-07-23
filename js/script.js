@@ -25,8 +25,3 @@ function toggleFunction() {
     } else {
         x.className = x.className.replace(" w3-show", "");
     }
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 20e38b2c6be1f02e2e079c0768fb2cde714a73ef
