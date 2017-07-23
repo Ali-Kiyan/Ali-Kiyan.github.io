@@ -23,7 +23,10 @@ body, html {
 .bgimg-1 {
     background-image: url('Https://Ali-Kiyan.github.io/images/11.jpg');
     min-height: 100%;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 20e38b2c6be1f02e2e079c0768fb2cde714a73ef
 }
 
 /* Second image (Portfolio) */
@@ -41,6 +44,7 @@ body, html {
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
+<<<<<<< HEAD
 
 video {
 
@@ -55,6 +59,8 @@ video {
    /*overflow: hidden;*/
 }
 
+=======
+>>>>>>> 20e38b2c6be1f02e2e079c0768fb2cde714a73ef
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -64,14 +70,21 @@ video {
       font-size: 8px;
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 20e38b2c6be1f02e2e079c0768fb2cde714a73ef
 /* W3.CSS 4.04 Apr 2017 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+<<<<<<< HEAD
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block
 
 }
+=======
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}
+>>>>>>> 20e38b2c6be1f02e2e079c0768fb2cde714a73ef
 audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
 audio:not([controls]){display:none;height:0}[hidden],template{display:none}
 a{background-color:transparent;-webkit-text-decoration-skip:objects}
