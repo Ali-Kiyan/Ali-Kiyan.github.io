@@ -63,6 +63,8 @@ video {
     }
     p {
       font-size: 8px;
+    }
+    #bio{
       text-align: justify;
       padding: inherit;
     }
