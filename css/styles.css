@@ -63,6 +63,7 @@ video {
     }
     p {
       font-size: 8px;
+      text-align: justify;
     }
 }
 /* W3.CSS 4.04 Apr 2017 by Jan Egil and Borge Refsnes */
