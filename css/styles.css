@@ -10,6 +10,16 @@ body, html {
 .noU{
   text-decoration: none;
 }
+.aliMain{
+
+  border: 10px solid #fff;
+    border-bottom: 45px solid #fff;
+    -webkit-box-shadow: 3px 3px 3px #777;
+       -moz-box-shadow: 3px 3px 3px #777;
+            box-shadow: 3px 3px 3px #777;
+
+
+}
 #portfolio a
 {
   font-size : 11px;
