@@ -26,7 +26,15 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+var $contactinfo = $('.contactInfo');
+var $win = $(window);
+$win.on('scroll', function(s){
+
+var top = $win.scrollTop();
+
+top = top-3650;
+
+$('.contactInfo').css('margin-left',top + 'px');
 
 
-
-    
+});
