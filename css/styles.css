@@ -45,7 +45,7 @@ body, html {
 /* Second image (Portfolio) */
 .bgimg-2 {
     background-image: url('Https://Ali-Kiyan.github.io/images/14.jpg');
-    min-height: 400px;
+    min-height: 700px;
 }
 
 /* Third image (Contact) */
@@ -95,10 +95,11 @@ margin-bottom: 0.8em;
 
 
 #cv {
-  transition: 0.1s;
+  transition: 0.3s;
+  font-size: 1.2em;
 }
 #cv:hover{
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 

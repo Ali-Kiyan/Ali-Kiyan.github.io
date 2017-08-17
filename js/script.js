@@ -47,13 +47,8 @@ $win.on('scroll', function(s){
   top = top/8;
 $('.aliMain').css('margin-right',top + 'px');
 });
-//cv scroll
 
-var $win = $(window);
-$win.on('scroll', function(s){
-  var top = $win.scrollTop();
-   top = top/1800;
-     $('#cv').css('font-size', top + 'em');
+
 
 
 
