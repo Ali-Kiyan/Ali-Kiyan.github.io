@@ -50,6 +50,3 @@ $('.aliMain').css('margin-right',top + 'px');
 
 
 
-
-
-});
