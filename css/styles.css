@@ -45,7 +45,7 @@ body, html {
 /* Second image (Portfolio) */
 .bgimg-2 {
     background-image: url('Https://Ali-Kiyan.github.io/images/14.jpg');
-    min-height: 400px;
+    min-height: 700px;
 }
 
 /* Third image (Contact) */
@@ -92,18 +92,20 @@ p{
 margin-bottom: 0.8em;
 }
 
-.contactInfo{
-  padding: 5%;
-}
+
 
 #cv {
-  transition: 0.1s;
-}
-#cv:hover{
+  transition: 0.3s;
   font-size: 1.2em;
 }
+#cv:hover{
+  font-size: 1.4em;
+}
 
-
+#bio{
+      text-align: justify;
+      padding: inherit;
+    }
 
 
 
@@ -124,13 +126,15 @@ margin-bottom: 0.8em;
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
-    p {
-      font-size: 8px;
+    body {
+      font-size: 0.5em;
     }
     #bio{
       text-align: justify;
       padding: inherit;
     }
+
+
 }
 /* W3.CSS 4.04 Apr 2017 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
