@@ -96,11 +96,11 @@ margin-bottom: 0.8em;
 
 
 #cv {
-  transition: 0.3s;
+  transition: 0.2s ;
   font-size: 1.2em;
 }
 #cv:hover{
-  font-size: 1.4em;
+  font-size: 1.8em;
 }
 
 #bio{
@@ -108,7 +108,14 @@ margin-bottom: 0.8em;
       padding: inherit;
     }
 
+.contactInfo i{
 
+  transition: 2s ;
+
+}
+.contactInfo i:hover{
+  font-size: 3.1em !important;
+}
 
 
 
