@@ -30,8 +30,8 @@ function toggleFunction() {
 //connecting scroll to a div class
 
 
-  
-    var $contactinfo = $('.contactInfo');
+
+
     var $win = $(window);
     $win.on('scroll', function(s){
 
@@ -50,6 +50,3 @@ $win.on('scroll', function(s){
   top = top/8;
 $('.aliMain').css('margin-right',top + 'px');
 });
-
-
-
