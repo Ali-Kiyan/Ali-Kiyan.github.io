@@ -26,6 +26,8 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+
+//connecting scroll to a div class
 var $contactinfo = $('.contactInfo');
 var $win = $(window);
 $win.on('scroll', function(s){
@@ -35,6 +37,27 @@ var top = $win.scrollTop();
 top = top-3650;
 
 $('.contactInfo').css('margin-left',top + 'px');
+
+
+});
+//image scroll
+var $win = $(window);
+$win.on('scroll', function(s){
+  var top = $win.scrollTop();
+  top = top/10;
+$('.aliMain').css('margin-right',top + 'px');
+$('#cv').css('margin-left', 300+top + 'px');
+});
+//cv scroll
+
+var $win = $(window);
+var $wid = $(window).width();
+var center = ($wid/2);
+$win.on('scroll', function(s){
+  var top = $win.scrollTop();
+   top = top/10;
+     $('#cv').css('margin-left', top-300 + 'px');
+
 
 
 });
