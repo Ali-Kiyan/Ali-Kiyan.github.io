@@ -92,9 +92,7 @@ p{
 margin-bottom: 0.8em;
 }
 
-.contactInfo{
-  padding: 5%;
-}
+
 
 #cv {
   transition: 0.1s;
@@ -131,6 +129,7 @@ margin-bottom: 0.8em;
       text-align: justify;
       padding: inherit;
     }
+
 }
 /* W3.CSS 4.04 Apr 2017 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
