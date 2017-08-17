@@ -28,17 +28,20 @@ function toggleFunction() {
 }
 
 //connecting scroll to a div class
-var $contactinfo = $('.contactInfo');
-var $win = $(window);
-$win.on('scroll', function(s){
+var $width = $(window).width();
+if($width>1024){
+  
+    var $contactinfo = $('.contactInfo');
+    var $win = $(window);
+    $win.on('scroll', function(s){
 
-var top = $win.scrollTop();
+    var top = $win.scrollTop();
 
-top = top-3650;
+    top = top/8;
 
-$('.contactInfo').css('margin-left',top + 'px');
+    $('.contactInfo').css('margin-left',top + 'px');
 
-
+}
 });
 //image scroll
 var $win = $(window);
