@@ -37,7 +37,7 @@ function toggleFunction() {
 
     var top = $win.scrollTop();
 
-    top = top-4100;
+    top = top-4000;
 
     $('.contactInfo').css('margin-left',top + 'px');
 });
