@@ -134,7 +134,11 @@ margin-bottom: 0.8em;
       text-align: justify;
       padding: inherit;
     }
-   
+    .soFar{
+
+     font-size: 0.8em;
+
+     }
 
 
 }
