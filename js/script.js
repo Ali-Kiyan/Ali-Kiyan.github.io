@@ -44,19 +44,16 @@ $('.contactInfo').css('margin-left',top + 'px');
 var $win = $(window);
 $win.on('scroll', function(s){
   var top = $win.scrollTop();
-  top = top/10;
+  top = top/8;
 $('.aliMain').css('margin-right',top + 'px');
-$('#cv').css('margin-left', 300+top + 'px');
 });
 //cv scroll
 
 var $win = $(window);
-var $wid = $(window).width();
-var center = ($wid/2);
 $win.on('scroll', function(s){
   var top = $win.scrollTop();
-   top = top/10;
-     $('#cv').css('margin-left', top-300 + 'px');
+   top = top/1800;
+     $('#cv').css('font-size', top + 'em');
 
 
 

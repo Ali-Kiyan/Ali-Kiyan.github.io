@@ -15,7 +15,7 @@ body, html {
   border: 10px solid #fff;
   border-radius: 0;
   margin-bottom: 10px;
-  margin-left: 15%;
+  margin-left: 7%;
     border-bottom: 25px solid #fff;
     -webkit-box-shadow: 3px 3px 3px #777;
        -moz-box-shadow: 3px 3px 3px #777;
@@ -92,12 +92,15 @@ p{
 margin-bottom: 0.8em;
 }
 
+.contactInfo{
+  padding: 5%;
+}
 
 #cv {
   transition: 0.1s;
 }
 #cv:hover{
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 
