@@ -33,14 +33,18 @@ function toggleFunction() {
   
     var $contactinfo = $('.contactInfo');
     var $win = $(window);
-    $win.on('scroll', function(s){
+    var wid = $(window).width();
+    if (wid>1060)
+    {
+            $win.on('scroll', function(s){
 
-    var top = $win.scrollTop();
+            var top = $win.scrollTop();
 
-    top = top-4150;
+            top = top-3800;
 
-    $('.contactInfo').css('margin-left',top + 'px');
-});
+            $('.contactInfo').css('margin-left',top + 'px');
+    });
+    }
 
 
 //image scroll
