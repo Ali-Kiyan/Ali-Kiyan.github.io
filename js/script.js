@@ -29,7 +29,7 @@ function toggleFunction() {
 
 //connecting scroll to a div class
 var $width = $(window).width();
-if($width>1024){
+ if($width>1024){
   
     var $contactinfo = $('.contactInfo');
     var $win = $(window);
@@ -40,9 +40,9 @@ if($width>1024){
     top = top/8;
 
     $('.contactInfo').css('margin-left',top + 'px');
-
-}
 });
+ }
+
 //image scroll
 var $win = $(window);
 $win.on('scroll', function(s){
