@@ -88,6 +88,7 @@ footer {
   padding: 1%;
 }
 
+
 p{
 margin-bottom: 0.8em;
 }
@@ -133,6 +134,11 @@ margin-bottom: 0.8em;
       text-align: justify;
       padding: inherit;
     }
+    .soFar{
+
+     font-size: 0.3em;
+
+     }
 
 
 }
