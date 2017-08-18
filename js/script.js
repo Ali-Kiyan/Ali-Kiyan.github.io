@@ -40,7 +40,7 @@ function toggleFunction() {
     top = top - 3700;
 
     console.log(top);
-    if(top<100)
+    if(top<0)
     $('.contactInfo').css('margin-left',top + 'px');
 });
 
