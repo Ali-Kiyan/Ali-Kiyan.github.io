@@ -98,6 +98,7 @@ margin-bottom: 0.8em;
 #cv {
   transition: 0.2s ;
   font-size: 1.2em;
+
 }
 #cv:hover{
   font-size: 1.8em;

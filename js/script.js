@@ -64,5 +64,5 @@ setInterval(function(){
 },1000);
 //aniamting CV
 setInterval(function(){
-    $('#cv').toggleClass('animated tada');
-},1000);
+    $('#cv').toggleClass('animated flash');
+},2000);
