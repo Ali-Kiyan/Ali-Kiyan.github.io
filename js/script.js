@@ -37,7 +37,7 @@ function toggleFunction() {
 
     var top = $win.scrollTop();
 
-    top = top - 3700;
+    top = top - 4300;
 
     console.log(top);
     if(top<0)
@@ -52,3 +52,18 @@ $win.on('scroll', function(s){
   top = top/8;
 $('.aliMain').css('margin-right',top + 'px');
 });
+
+
+
+// bounce animation for new link
+setInterval(function(){
+    $('#laramedia').toggleClass('animated rubberBand');
+},1000);
+//animating the email
+setInterval(function(){
+    $('#email').toggleClass('animated swing');
+},1000);
+//aniamting CV
+setInterval(function(){
+    $('#cv').toggleClass('animated tada');
+},1000);

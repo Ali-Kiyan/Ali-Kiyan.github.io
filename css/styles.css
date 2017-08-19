@@ -122,6 +122,22 @@ margin-bottom: 0.8em;
 }
 
 
+.laramedia:hover {
+
+  transition: 2s;
+
+}
+.laramedia i {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+*:hover{
+transition: 1s linear;
+}
+.aliMain {
+opacity: 0!important;
+}
+
 
 
 

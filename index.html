@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -33,7 +34,7 @@
    </div>
 
  <!-- Navbar (sit on top) -->
- <div class="w3-top" style= " color: #000;">
+ <div class="w3-top animated fadeInLeft" style= " color: #000;">
   <div class="w3-bar" id="myNavbar">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
     <i class="fa fa-bars" ></i>
@@ -61,11 +62,10 @@
     <!-- Container (About Section) -->
     <div class="w3-content w3-container w3-padding-64" id="about">
       <h3 class="w3-center">ABOUT ME</h3>
-      <p class="w3-center"><em>I am a developer!</em></p>
        <div class="w3-row">
         <div class="w3-col  w3-center w3-padding-large">
 
-          <img src="Https://Ali-Kiyan.github.io/images/1.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off aliMain" alt="Photo of Me" width="300" height="333">
+          <img src="images/1.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off aliMain" alt="Photo of Me" width="300" height="333">
           <p style="font-size: 10px;" id="bio">My name is Ali and I am studying my masters (Databases and Web-Based Systems as an international student. I am a 22 year old tech fanatic looking for an oppotunity to work and master my skill. Having studied in software engineering on my Bachelor, I can say I have a proper understanding of computer science and software development. I have experience in
           web development and designed full web sites (front-end and backend with database design) but I have never wanted to restrict myself and I would like to develop applications and web applications as well.</p>
 
@@ -73,10 +73,10 @@
        </div>
     <span class="w3-col m6 w3-padding-large soFar">
        <span class="fa fa-university"></span> What I have done so far
-        <a href="Https://Ali-Kiyan.github.io/Files/Advanced Databases-Case Study.pdf"class="w3-button w3-hover-light-green w3-animate-left" target="_blank"><i class="fa fa-download w3-margin-right"></i>Advanced Databases-Case Study</a>
-        <a href="Https://Ali-Kiyan.github.io/Files/Advanced_database.pdf" class="w3-button w3-hover-light-blue w3-animate-left" target="_blank"><i class="fa fa-download w3-margin-right "></i>Advanced_database</a>
-        <a href="Https://Ali-Kiyan.github.io/Files/SemanticWeb&InformationExtraction-CaseStudy.pdf" class="w3-button w3-hover-pale-red w3-animate-left" target="_blank"><i class="fa fa-download w3-margin-right"></i>Semantic_Web & Information Extraction-Case Study</a>
-        <a href="Https://Ali-Kiyan.github.io/Files/Semantic_Web&InformationExtration.pdf" class="w3-button w3-hover-brown w3-animate-left" target="_blank"><i class="fa fa-download w3-margin-right"></i>Semantic_Web & Information Extraction</a>
+        <a href="Files/Advanced Databases-Case Study.pdf"class="w3-button w3-hover-light-green w3-animate-left" target="_blank"><i class="fa fa-download w3-margin-right"></i>Advanced Databases-Case Study</a>
+        <a href="Files/Advanced_database.pdf" class="w3-button w3-hover-light-blue w3-animate-left" target="_blank"><i class="fa fa-download w3-margin-right "></i>Advanced_database</a>
+        <a href="Files/SemanticWeb&InformationExtraction-CaseStudy.pdf" class="w3-button w3-hover-pale-red w3-animate-left" target="_blank"><i class="fa fa-download w3-margin-right"></i>Semantic_Web & Information Extraction-Case Study</a>
+        <a href="Files/Semantic_Web&InformationExtration.pdf" class="w3-button w3-hover-brown w3-animate-left" target="_blank"><i class="fa fa-download w3-margin-right"></i>Semantic_Web & Information Extraction</a>
     </span>
 
 
@@ -165,20 +165,30 @@
   <h3 class="w3-center">MY WORK</h3>
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
-      <p>Here is my latest work</p>
+      <p>Live Projects</p>
   </div>
-  <div class="w3-row-padding w3-center">
-   <div class="w3-col m6">
-     <img src="images/Green_Environment_Demo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Green Environment">
+    <div class="w3-row-padding w3-center">
+          <div class="w3-col m12">
+          <img src="images/lara_Landing.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="LaraMedia">
+           <a href="Files/laramedia.pdf" class="w3-button w3-hover-light-blue middle laramedia w3-left" target="_blank"><i class="fa fa-download w3-left"></i>LaraMedia short description</a>
+           <a href="http://infinite-stream-32535.herokuapp.com" class="w3-button w3-blue w3-hover-lime laramedia w3-right" id="laramedia"><i class="fa fa-external-link w3-right"></i>LaraMedia Live Link</a>
+          </div>
+      <div class="w3-row-padding w3-center">
+          <p>Local Projects</p>
+      </div>
+        <div class="w3-row-padding w3-center">
+         <div class="w3-col m6">
+           <img src="images/Green_Environment_Demo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Green Environment">
+           <a href="Files/Green_environment_Description.pdf" class="w3-button w3-hover-pale-green small w3-left" target="_blank"><i class="fa fa-download"></i>Green Environment Description</a>
+           <a href="Files/Green_environment_Description.pdf" class="w3-button w3-hover-pale-blue w3-right" target="_blank"><i class="fa fa-download"></i>Green Environment Description</a>
+         </div>
+         <div class="w3-col m6">
+           <img src="images/GN_V1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Green Environment Version 1.0">
+           <a href="Https://Ali-Kiyan.github.io/Files/Green_Environment_Version_1.0.pdf" class="w3-button w3-hover-pale-red"><i class="fa fa-download w3-margin-right"></i>Green Environment Version 1.0</a>
+         </div>
+        </div>
+      </div>
 
-     <a href="Https://Ali-Kiyan.github.io/Files/Green_environment_Description.pdf" class="w3-button w3-hover-pale-green small" target="_blank" style="float:left;  "><i class="fa fa-download margin-right: 2px;"></i>Green Environment Description</a>
-     <a href="Https://Ali-Kiyan.github.io/Files/Green_environment_Description.pdf" class="w3-button w3-hover-pale-blue" target="_blank" style="float:right;  "><i class="fa fa-download margin-right: 2px;"></i>Green Environment Description</a>
-   </div>
-   <div class="w3-col m6">
-     <img src="images/GN_V1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Green Environment Version 1.0">
-     <a href="Https://Ali-Kiyan.github.io/Files/Green_Environment_Version_1.0.pdf" class="w3-button w3-hover-pale-red"><i class="fa fa-download w3-margin-right"></i>Green Environment Version 1.0</a>
-</div>
-</div>
 <!--
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
@@ -233,7 +243,7 @@
        <div class="w3-large w3-margin-bottom contactInfo">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Manchester, United Kingdom<br>
         <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +44 7946229886<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: Alikiyand@gmail.com<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right" id="email"></i> Email: Alikiyand@gmail.com<br>
        </div>
       </div>
       </div>
