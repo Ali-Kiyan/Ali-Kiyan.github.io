@@ -139,7 +139,12 @@ margin-bottom: 0.8em;
 transition: 1s linear;
 }
 
-
+#email{
+  text-decoration: none;
+}
+#linkedIn{
+  text-decoration: none;
+}
 
 
 
