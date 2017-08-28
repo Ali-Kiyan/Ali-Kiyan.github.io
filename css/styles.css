@@ -140,10 +140,10 @@ transition: 1s linear;
 }
 
 #email{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 #linkedIn{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 
