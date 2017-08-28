@@ -56,8 +56,8 @@ $('.aliMain').css('margin-right',top + 'px');
 
 // bounce animation for new link
 setInterval(function(){
-    $('#laramedia').toggleClass('animated rubberBand');
-},1000);
+    $('#laramedia').toggleClass('animated swing');
+},1500);
 //animating the email
 setInterval(function(){
     $('#email').toggleClass('animated swing');

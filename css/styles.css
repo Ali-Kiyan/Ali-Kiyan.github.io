@@ -115,7 +115,10 @@ margin-bottom: 0.8em;
 
 }
 .contactInfo i:hover{
-  font-size: 3.1em !important;
+  font-size: 1.6em !important;
+}
+.contactInfo a {
+  text-decoration: none;
 }
 
 .sBar {
@@ -135,6 +138,8 @@ margin-bottom: 0.8em;
 *:hover{
 transition: 1s linear;
 }
+
+
 
 
 
