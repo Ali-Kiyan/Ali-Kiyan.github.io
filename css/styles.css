@@ -188,7 +188,7 @@ transition: 1s linear;
 
 @font-face {
   font-family: "Hermit";
-  src: url("/fonts/Hermit.otf");
+  src: url("/fonts/Hermit.otf") format('opentype');
 }
 
 
