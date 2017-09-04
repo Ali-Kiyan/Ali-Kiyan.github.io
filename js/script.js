@@ -72,7 +72,7 @@ setInterval(function(){
     typeSpeed: 300
   });
   var typed = new Typed('#bio', {
-    strings: ["My name is Ali and I am studying my masters (Databases and Web-Based Systems as an international student.I am a 22 year old tech fanatic looking for an oppotunity to work and master my skill. Having studied in software engineering in my Bachelor, I can say I have a properunderstanding of computer science and software development. I have experience inweb development and designed full web sites (front-end and backend with database design)but I have never wanted to restrict myself and I would like to develop applications and web applications as well."],
+    strings: ["My name is Ali and I am studying my masters ( Databases and Web-Based Systems as an international student. I am a 22 year old tech fanatic looking for an oppotunity to work and master my skill. Having studied in software engineering in my Bachelor, I can say I have a proper understanding of computer science and software development. I have experience in web development and designed full web sites (front-end and backend with database design). I would like to develop applications and web applications as well."],
     typeSpeed: 30
   });
 
