@@ -84,4 +84,5 @@ var typed = new Typed('#myName', {
         }
     });
 });
-document.querySelectorAll(".typed-cursor")[0,1].style.display = "none";
+document.querySelectorAll(".typed-cursor")[0].style.display = "none";
+document.querySelectorAll(".typed-cursor")[1].style.display = "none";
