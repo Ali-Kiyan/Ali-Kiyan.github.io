@@ -171,6 +171,9 @@ transition: 1s linear;
 #myNavbar{
   color: black;
 }
+#emailT{
+  display: inline;
+}
 
 
 
