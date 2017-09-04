@@ -66,3 +66,22 @@ setInterval(function(){
 setInterval(function(){
     $('#cv').toggleClass('animated flash');
 },2000);
+
+var typed = new Typed('#myName', {
+    strings: ["Ali Kiyan"],
+    typeSpeed: 300
+  });
+  var typed = new Typed('#bio', {
+    strings: ["My name is Ali and I am studying my masters (Databases and Web-Based Systems as an international student.I am a 22 year old tech fanatic looking for an oppotunity to work and master my skill. Having studied in software engineering in my Bachelor, I can say I have a properunderstanding of computer science and software development. I have experience inweb development and designed full web sites (front-end and backend with database design)but I have never wanted to restrict myself and I would like to develop applications and web applications as well."],
+    typeSpeed: 30
+  });
+  $(function(){
+    $("#bio").typed({
+        strings: ["First sentence.", "Second sentence."],
+        typeSpeed: 0,
+        callback: function () {
+            $(".typed-cursor").hide();
+        }
+    });
+});
+document.querySelectorAll(".typed-cursor")[0,1].style.display = "none";
