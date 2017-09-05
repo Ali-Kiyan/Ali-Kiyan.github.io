@@ -175,10 +175,10 @@ transition: 1s linear;
   display: inline;
 }
 
-.container{
+/*.container{
   position: fixed;
-  height: 100%;
-}
+  overflow: hidden !important;
+}*/
 
 
 
