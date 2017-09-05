@@ -52,6 +52,14 @@ $win.on('scroll', function(s){
 $('.aliMain').css('margin-right',top + 'px');
 });
 
+//main text scroll
+var $win = $(window);
+$win.on('scroll', function(s){
+  var top = $win.scrollTop();
+  top = top/2;
+$('.mainT').css('margin-left',top + 'px');
+});
+
 
 
 // bounce animation for new link
@@ -67,8 +75,9 @@ setInterval(function(){
     $('#cv').toggleClass('animated flash');
 },2000);
 
+
   var typed = new Typed('#myName', {
-    strings: ["Ali Kiyan"],
+    strings: ["Graduate Developer","Ali Kiyan"],
     typeSpeed: 300
   });
   var typed = new Typed('#bio', {
@@ -81,7 +90,5 @@ setInterval(function(){
   });
 
 
-
-document.querySelectorAll(".typed-cursor")[0].style.display = "none";
 document.querySelectorAll(".typed-cursor")[1].style.display = "none";
 document.querySelectorAll(".typed-cursor")[2].style.display = "none";
