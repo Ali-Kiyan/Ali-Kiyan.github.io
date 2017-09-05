@@ -174,11 +174,13 @@ transition: 1s linear;
 #cvT{
   display: inline;
 }
-
-/*.container{
+.container{
   position: fixed;
-  overflow: hidden !important;
-}*/
+  width: 100%;
+  height: 100%;
+
+}
+
 
 
 
