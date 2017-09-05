@@ -30,8 +30,6 @@ function toggleFunction() {
 //connecting scroll to a div class
 
 
-
-
     var $win = $(window);
     $win.on('scroll', function(s){
 
