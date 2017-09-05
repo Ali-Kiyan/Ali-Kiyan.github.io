@@ -175,7 +175,10 @@ transition: 1s linear;
   display: inline;
 }
 
-
+.container{
+  position: fixed;
+  height: 100%;
+}
 
 
 
