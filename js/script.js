@@ -27,19 +27,19 @@ function toggleFunction() {
     }
 }
 
-//connecting scroll to a div class
-
-
-    var $win = $(window);
-    $win.on('scroll', function(s){
-
-    var top = $win.scrollTop();
-
-    top = top - 4300;
-
-    if(top<0)
-    $('.contactInfo').css('margin-left',top + 'px');
-});
+// //connecting scroll to a div class
+//
+//
+//     var $win = $(window);
+//     $win.on('scroll', function(s){
+//
+//     var top = $win.scrollTop();
+//
+//     top = top - 4300;
+//
+//     if(top<0)
+//     $('.contactInfo').css('margin-left',top + 'px');
+// });
 
 
 //image scroll
