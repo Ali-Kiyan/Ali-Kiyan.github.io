@@ -64,6 +64,10 @@ $('.mainT').css('margin-left',top + 'px');
 setInterval(function(){
     $('#laramedia').toggleClass('animated swing');
 },1500);
+// bounce animation for new link
+setInterval(function(){
+    $('#campJS').toggleClass('animated swing');
+},1500);
 //animating the email
 setInterval(function(){
     $('#email').toggleClass('animated swing');
