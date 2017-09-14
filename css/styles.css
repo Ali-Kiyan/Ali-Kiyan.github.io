@@ -110,6 +110,12 @@ p{
 margin-bottom: 0.8em;
 }
 
+.fullwidth{
+  width: 100%;
+}
+#modal01{
+  background-color:#3c3c3c;
+}
 
 
 #cv {
