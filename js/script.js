@@ -1,3 +1,7 @@
+$(window).on('load', function () {
+    AOS.refresh();
+});
+
 // Modal Image Gallery
 function onClick(element) {
     document.getElementById("img01").src = element.src;
