@@ -42,24 +42,24 @@ function toggleFunction() {
 // });
 
 
-stroke(container, 5400, '#7f8c8d', 0.9);
-stroke(container1, 5400, '#7f8c8d', 0.85);
-stroke(container2, 5400, '#7f8c8d', 0.75);
-stroke(container3, 5400, '#7f8c8d', 0.9);
+stroke(container, 5400, '#67809F', 0.9);
+stroke(container1, 5400, '#67809F', 0.85);
+stroke(container2, 5400, '#67809F', 0.75);
+stroke(container3, 5400, '#67809F', 0.9);
 
 //image scroll
-var $win = $(window);
-$win.on('scroll', function(s){
-  var top = $win.scrollTop();
-  top = top/8;
-$('.aliMain').css('margin-right',top + 'px');
-});
+// var $win = $(window);
+// $win.on('scroll', function(s){
+//   var top = $win.scrollTop();
+//   top = top/10;
+// $('.aliMain').css('margin-left',top + 'px');
+// });
 
 //main text scroll
 var $win = $(window);
 $win.on('scroll', function(s){
   var top = $win.scrollTop();
-  top = top/2;
+  top = top/4;
 $('.mainT').css('margin-left',top + 'px');
 });
 
@@ -127,6 +127,7 @@ setInterval(function(){
          });
 
         bar.animate(percentage);
+
    }
 
 
