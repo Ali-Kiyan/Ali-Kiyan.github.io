@@ -42,10 +42,10 @@ function toggleFunction() {
 // });
 
 
-stroke(container, 5400, '#67809F', 0.9);
-stroke(container1, 5400, '#67809F', 0.85);
-stroke(container2, 5400, '#67809F', 0.75);
-stroke(container3, 5400, '#67809F', 0.9);
+stroke(container, 800, '#67809F', 0.9);
+stroke(container1, 800, '#67809F', 0.85);
+stroke(container2, 1200, '#67809F', 0.75);
+stroke(container3, 1200, '#67809F', 0.9);
 
 //image scroll
 // var $win = $(window);
