@@ -1,7 +1,3 @@
-$(window).on('load', function () {
-    AOS.refresh();
-});
-
 // Modal Image Gallery
 function onClick(element) {
     document.getElementById("img01").src = element.src;
@@ -44,7 +40,10 @@ function toggleFunction() {
 //     if(top<0)
 //     $('.contactInfo').css('margin-left',top + 'px');
 // });
-
+stroke(container, 5400, '#BDC3C7', 0.9);
+stroke(container1, 5400, '#BDC3C7', 0.85);
+stroke(container2, 5400, '#BDC3C7', 0.75);
+stroke(container3, 5400, '#BDC3C7', 0.9);
 
 //image scroll
 var $win = $(window);
@@ -94,6 +93,39 @@ setInterval(function(){
     strings: ["Ali Kiyan CV"],
     typeSpeed: 100
   });
+
+  function stroke(name,duration, color, percentage){
+        var bar = new ProgressBar.Line(name, {
+              strokeWidth: 4,
+              easing: 'easeInOut',
+              duration: duration,
+              color: color,
+              trailColor: '#eee',
+              trailWidth: 1,
+              svgStyle: {width: '100%', height: '100%'},
+              text: {
+                style: {
+                  // Text color.
+                  // Default: same as stroke color (options.color)
+                  color: '#999',
+                  position: 'absolute',
+                  right: '0',
+                  top: '30px',
+                  padding: 0,
+                  margin: 0,
+                  transform: null
+                },
+                autoStyleContainer: false
+              },
+              from: {color: '#FFEA82'},
+              to: {color: '#ED6A5A'},
+              step: (state, bar) => {
+                bar.setText(Math.round(bar.value() * 100) + ' %');
+              }
+         });
+
+        bar.animate(percentage);
+   }
 
 
 document.querySelectorAll(".typed-cursor")[1].style.display = "none";
