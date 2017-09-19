@@ -40,10 +40,12 @@ function toggleFunction() {
 //     if(top<0)
 //     $('.contactInfo').css('margin-left',top + 'px');
 // });
-stroke(container, 5400, '#BDC3C7', 0.9);
-stroke(container1, 5400, '#BDC3C7', 0.85);
-stroke(container2, 5400, '#BDC3C7', 0.75);
-stroke(container3, 5400, '#BDC3C7', 0.9);
+
+
+stroke(container, 5400, '#7f8c8d', 0.9);
+stroke(container1, 5400, '#7f8c8d', 0.85);
+stroke(container2, 5400, '#7f8c8d', 0.75);
+stroke(container3, 5400, '#7f8c8d', 0.9);
 
 //image scroll
 var $win = $(window);
@@ -100,7 +102,7 @@ setInterval(function(){
               easing: 'easeInOut',
               duration: duration,
               color: color,
-              trailColor: '#eee',
+              trailColor: '#34495e',
               trailWidth: 1,
               svgStyle: {width: '100%', height: '100%'},
               text: {
