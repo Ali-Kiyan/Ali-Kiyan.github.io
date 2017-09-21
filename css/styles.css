@@ -54,13 +54,13 @@ body, html {
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url('Https://Ali-Kiyan.github.io/images/14.jpg');
+    background-image: url('https://Ali-Kiyan.github.io/images/14.jpg');
     min-height: 600px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url('Https://Ali-Kiyan.github.io/images/44.jpg');
+    background-image: url('https://Ali-Kiyan.github.io/images/44.jpg');
     min-height: 400px;
 }
 
@@ -142,6 +142,10 @@ margin-bottom: 0.8em;
   width: 70%;
   height: 8px;
   position: relative;
+}
+
+#skills{
+  margin-bottom: 20%;
 }
 
 #skills p{
