@@ -65,13 +65,17 @@ $('.mainT').css('margin-left',top + 'px');
 
 
 
-// bounce animation for new link
+// bounce animation for new link laramedia
 setInterval(function(){
     $('#laramedia').toggleClass('animated swing');
 },1500);
-// bounce animation for new link
+// bounce animation for new link campJS
 setInterval(function(){
     $('#campJS').toggleClass('animated swing');
+},1500);
+// bounce animation for new link for ge
+setInterval(function(){
+    $('#ge').toggleClass('animated tada');
 },1500);
 //animating the email
 setInterval(function(){

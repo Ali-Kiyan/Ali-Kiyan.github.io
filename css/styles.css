@@ -230,8 +230,14 @@ transition: 1s linear;
   width:100%;
   overflow: hidden;
 }
-.containerd{
+.middle{
+  width:50%;
+  display:block;
+  margin: 2% auto 0 auto;
 }
+
+
+
 
 
 
