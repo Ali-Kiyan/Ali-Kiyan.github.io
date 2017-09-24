@@ -67,15 +67,15 @@ $('.mainT').css('margin-left',top + 'px');
 
 // bounce animation for new link laramedia
 setInterval(function(){
-    $('#laramedia').toggleClass('animated swing');
-},1500);
+    $('#laramedia').toggleClass('animated pulse');
+},1000);
 // bounce animation for new link campJS
 setInterval(function(){
-    $('#campJS').toggleClass('animated swing');
-},1500);
+    $('#campJS').toggleClass('animated pulse');
+},1200);
 // bounce animation for new link for ge
 setInterval(function(){
-    $('#ge').toggleClass('animated tada');
+    $('#ge').toggleClass('animated pulse');
 },1500);
 //animating the email
 setInterval(function(){
@@ -83,8 +83,8 @@ setInterval(function(){
 },2000);
 //aniamting CV
 setInterval(function(){
-    $('#cv').toggleClass('animated flash');
-},2000);
+    $('#cv').toggleClass('animated wobble');
+},2100);
 
 
   var typed = new Typed('#myName', {
