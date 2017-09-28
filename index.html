@@ -4,6 +4,10 @@
     <title>Ali-Kiyan</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/navReset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/navStyle.css"> <!-- Resource style -->
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -12,6 +16,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="stylesheet" href="./css/animations.css">
+
     <meta name="theme-color" content="#ffffff">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -35,24 +40,39 @@
    </div>
 
  <!-- Navbar (sit on top) -->
- <div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-    <i class="fa fa-bars" ></i>
-    </a>
-    <a href="/" class="w3-bar-item w3-button w3-hover-light-gray w3-hover-opacity"><i class="fa fa-home w3-hover-text-grey"></i> HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-light-gray w3-hover-opacity"><i class="fa fa-user w3-hover-text-grey"></i> ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small w3-hover-light-gray w3-hover-opacity"><i class="fa fa-th w3-hover-text-grey"></i> PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-light-grey w3-hover-opacity"><i class="fa fa-envelope w3-hover-text-grey"></i> CONTACT</a>
-  </div>
+ <nav class="cd-stretchy-nav">
+   <a class="cd-nav-trigger" href="#0">
+     <span aria-hidden="true"></span>
+   </a>
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block  w3-hide w3-hide-large w3-hide-medium w3-dark-grey">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-  </div>
-</div>
+   <ul>
+     <li><a href="#0" class="active"><span>Home</span></a></li>
+     <li><a href="#0"><span>Portfolio</span></a></li>
+     <li><a href="#0"><span>Services</span></a></li>
+     <li><a href="#0"><span>Store</span></a></li>
+     <li><a href="#0"><span>Contact</span></a></li>
+   </ul>
+
+   <span aria-hidden="true" class="stretchy-nav-bg"></span>
+ </nav>
+         <!-- <div class="w3-top">
+          <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+            <i class="fa fa-bars" ></i>
+            </a>
+            <a href="/" class="w3-bar-item w3-button w3-hover-light-gray w3-hover-opacity"><i class="fa fa-home w3-hover-text-grey"></i> HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-light-gray w3-hover-opacity"><i class="fa fa-user w3-hover-text-grey"></i> ABOUT</a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small w3-hover-light-gray w3-hover-opacity"><i class="fa fa-th w3-hover-text-grey"></i> PORTFOLIO</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-light-grey w3-hover-opacity"><i class="fa fa-envelope w3-hover-text-grey"></i> CONTACT</a>
+          </div> -->
+
+            <!-- Navbar on small screens -->
+            <!-- <div id="navDemo" class="w3-bar-block  w3-hide w3-hide-large w3-hide-medium w3-dark-grey">
+              <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+              <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+              <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+            </div>
+          </div> -->
 
     <!-- First Parallax Image with Logo Text -->
     <div class="bgimg-1 w3-display-container w3-opacity-min w3-hide-large" id="home">
@@ -307,11 +327,14 @@
     -->
     </footer>
  </body>
+ <script src="js/jquery-2.1.4.js"></script>
+ <script src="js/navMain.js"></script> <!-- Resource jQuery -->
  <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.js" integrity="sha256-zvqQ/vfCjvgkPEycXtURpmfmjCM2ghxcVRzkucn1vCU=" crossorigin="anonymous"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.min.js"></script>
  <script src="js/script.js"></script>
  <script src="js/css3-animate-it.js"></script>
+
 
 
 </html>
