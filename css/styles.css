@@ -422,6 +422,14 @@ Stretchy Nav style - common to:
   transform: translateX(3px) translateY(-50%) scaleY(0);
   background-color: #0a9581;
 }
+.cd-stretchy-nav ul a:hover{
+  border-right:solid 4px #0a9581;
+}
+
+.border-bottom{
+    border-bottom-right-radius: 1em !important;
+}
+
 .cd-stretchy-nav ul li:first-of-type a::after {
   /* change custom icon using image sprites */
   background-position: -32px 0;
