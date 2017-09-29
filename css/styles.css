@@ -372,7 +372,7 @@ Stretchy Nav style - common to:
 .cd-stretchy-nav ul {
   position: relative;
   z-index: 2;
-  padding: 60px 0 0;
+  padding: 40px 0 0;
   visibility: hidden;
   -webkit-transition: visibility 0.3s;
   -moz-transition: visibility 0.3s;
