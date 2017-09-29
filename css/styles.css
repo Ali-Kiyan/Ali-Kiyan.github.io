@@ -511,11 +511,11 @@ Stretchy Nav style - common to:
   opacity: 1;
 }
 .no-touch .cd-stretchy-nav.nav-is-visible ul a:hover span {
-  -webkit-transform: translateX(-5px);
-  -moz-transform: translateX(-5px);
-  -ms-transform: translateX(-5px);
-  -o-transform: translateX(-5px);
-  transform: translateX(-5px);
+  -webkit-transform: translateX(-15px);
+  -moz-transform: translateX(-15px);
+  -ms-transform: translateX(-15px);
+  -o-transform: translateX(-15px);
+  transform: translateX(-15px);
 }
 .cd-stretchy-nav.nav-is-visible ul li:first-of-type a::after,
 .cd-stretchy-nav.nav-is-visible ul li:first-of-type span {
