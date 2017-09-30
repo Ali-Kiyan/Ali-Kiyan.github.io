@@ -274,7 +274,7 @@ Stretchy Nav style - common to:
 .cd-stretchy-nav {
   position: fixed;
   z-index: 2;
-  top: 10px;
+  top: 10%;
   right: 5%;
   pointer-events: none;
 }
@@ -303,7 +303,21 @@ Stretchy Nav style - common to:
 }
 
 .cd-stretchy-nav ul a {
-  color: #000000 !important;
+
+}
+.cd-stretchy-nav ul li {
+    background-color: rgba(0,0,0,0.2);
+}
+.cd-stretchy-nav ul li:last-child{
+  background-color: rgba(0,0,0,0.2);
+border-bottom-right-radius: 1.5em !important;
+}
+.cd-stretchy-nav ul li:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+.cd-stretchy-nav ul li:last-child:hover{
+  background-color: rgba(0,0,0,0.5);
+border-bottom-right-radius: 1.5em !important;
 }
 
 .cd-nav-trigger {
@@ -391,7 +405,7 @@ Stretchy Nav style - common to:
 .cd-stretchy-nav ul {
   position: relative;
   z-index: 2;
-  padding: 40px 0 0;
+  padding: 60px 0 0;
   visibility: hidden;
   -webkit-transition: visibility 0.3s;
   -moz-transition: visibility 0.3s;
