@@ -174,12 +174,10 @@ div#skills.row.animatedParent{
 
 .contactInfo i{
 
-  transition: 2s ;
+  transition: 0.1s ;
 
 }
-.contactInfo i:hover{
-  font-size: 1.6em !important;
-}
+
 .contactInfo a {
   text-decoration: none;
 }
@@ -204,6 +202,9 @@ transition: 1s linear;
 
 #email{
   text-decoration: none;
+}
+#email:hover{
+  color: #1181a2 !important;
 }
 #linkedIn{
   text-decoration: none;
@@ -238,6 +239,49 @@ transition: 1s linear;
   display:block;
   margin: 2% auto 0 auto;
 }
+
+.page-footer {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 200 !important;
+  font-size: 14px !important;
+}
+
+.page-footer h5{
+  font-family: inherit ;
+  font-weight: inherit ;
+}
+
+.footer-copyright {
+  overflow: hidden;
+  min-height: 190px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(51, 51, 51, 0.08);
+}
+.footer-copyright h5{
+  font-weight: 100;
+  line-height: 1.1;
+  color: black !important;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*beginning of nav*/
 
 a{
@@ -550,6 +594,11 @@ Stretchy Nav style - common to:
 
 
 
+
+
+
+
+
 /* --------------------------------
 
 main content basic style
@@ -562,6 +611,9 @@ main content basic style
   padding: 100px 0;
   background-color: #003c5d;
 }
+
+
+
 
 
 
@@ -678,6 +730,37 @@ keyframes
 }
 #portfolio a {
   border-radius: 50px;
+}
+
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Thin), url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Light), url("../fonts/roboto/Roboto-Light.woff2") format("woff2"), url("../fonts/roboto/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Regular), url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Medium), url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/roboto/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Bold), url("../fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
 }
 
 /* W3.CSS 4.04 Apr 2017 by Jan Egil and Borge Refsnes */

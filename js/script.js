@@ -57,6 +57,10 @@ stroke(container3, 1200, '#67809F', 0.9);
 // $('.aliMain').css('margin-left',top + 'px');
 // });
 
+
+
+
+
 //main text scroll
 var $win = $(window);
 $win.on('scroll', function(s){
