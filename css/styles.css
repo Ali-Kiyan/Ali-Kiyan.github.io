@@ -302,23 +302,7 @@ Stretchy Nav style - common to:
   box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
 }
 
-.cd-stretchy-nav ul a {
 
-}
-.cd-stretchy-nav ul li {
-    background-color: rgba(0,0,0,0.2);
-}
-.cd-stretchy-nav ul li:last-child{
-  background-color: rgba(0,0,0,0.2);
-border-bottom-right-radius: 1.5em !important;
-}
-.cd-stretchy-nav ul li:hover {
-    background-color: rgba(0,0,0,0.5);
-}
-.cd-stretchy-nav ul li:last-child:hover{
-  background-color: rgba(0,0,0,0.5);
-border-bottom-right-radius: 1.5em !important;
-}
 
 .cd-nav-trigger {
   position: absolute;
@@ -418,12 +402,31 @@ border-bottom-right-radius: 1.5em !important;
   height: 50px;
   line-height: 50px;
   padding: 0 calc(1em + 60px) 0 1em;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.7);
   font-size: 1.4rem;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   transition: color 0.2s;
 }
+
+.cd-stretchy-nav ul li:hover {
+    opacity: 1;
+    background-color: rgba(0,0,0,0.7);
+    color: #ffffff !important;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    transition: color 0.2s;
+}
+.cd-stretchy-nav ul li:last-child:hover{
+  background-color: rgba(0,0,0,0.7);
+  border-bottom-right-radius: 1.5em !important;
+  color: #ffffff !important;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  transition: color 0.2s;
+
+}
+
 .cd-stretchy-nav ul a::after {
   /* navigation item icons */
   content: '';
@@ -493,6 +496,7 @@ border-bottom-right-radius: 1.5em !important;
 .cd-stretchy-nav.nav-is-visible ul {
   visibility: visible;
 }
+
 .cd-stretchy-nav.nav-is-visible ul a::after {
   /* navigation item icons */
   -webkit-transform: translateY(-50%) scale(1);
@@ -537,6 +541,7 @@ border-bottom-right-radius: 1.5em !important;
   -moz-transition: -moz-transform 0.2s;
   transition: transform 0.2s;
 }
+
 .no-touch .cd-stretchy-nav.nav-is-visible ul a:hover {
   color: #ffffff;
 }
