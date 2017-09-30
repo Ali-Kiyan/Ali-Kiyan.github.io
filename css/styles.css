@@ -46,12 +46,16 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Dosis', sans-serif ;
+    font-weight: 800;
+
 }
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
     background-image: url('Https://Ali-Kiyan.github.io/images/11.jpg');
     min-height: 100%;
+
 
 }
 
@@ -103,7 +107,6 @@ margin-top: 0;
 margin-bottom: 0;
 }
 footer {
-  padding: 1%;
   background-color: rgb(43, 55, 69);
   color: whitesmoke;
 }
@@ -243,43 +246,15 @@ transition: 1s linear;
 .page-footer {
   font-family: "Roboto", sans-serif !important;
   font-weight: 200 !important;
-  font-size: 14px !important;
+  font-size: 0.94rem !important;
 }
 
-.page-footer h5{
-  font-family: inherit ;
-  font-weight: inherit ;
+.footer-copyright{
+    font-weight: 100;
+    font-family: "Dosis", sans-serif !important;
+    padding: 3% 5% 0 0;
+
 }
-
-.footer-copyright {
-  overflow: hidden;
-  min-height: 190px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 10px 0px;
-  color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(51, 51, 51, 0.08);
-}
-.footer-copyright h5{
-  font-weight: 100;
-  line-height: 1.1;
-  color: black !important;
-}
-
-
-
-
-
-
-
-
-
 
 
 /*beginning of nav*/
