@@ -84,9 +84,9 @@ setInterval(function(){
     $('#ge').toggleClass('animated pulse');
 },1500);
 //animating the email
-setInterval(function(){
-    $('#email').toggleClass('animated pulse');
-},2000);
+// setInterval(function(){
+//     $('#email').toggleClass('animated pulse');
+// },2000);
 //aniamting CV
 setInterval(function(){
     $('#cv').toggleClass('animated wobble');
