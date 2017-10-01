@@ -417,6 +417,7 @@ Stretchy Nav style - common to:
 .cd-stretchy-nav ul li:hover {
     opacity: 1;
     background-color: rgba(0,0,0,0.7);
+      padding-left: 14%;
     color: #ffffff !important;
     font-family: Roboto, Avenire, "sans-serif";
     font-weight: 200;
