@@ -17,6 +17,7 @@ body, html {
   font-weight: 200;
 
 }
+
 #bio{
     font-family: Roboto, Avenire, "sans-serif";
     font-weight: 300;
@@ -55,6 +56,11 @@ body, html {
 #portfolio a
 {
   font-size : 11px;
+}
+
+#ge{
+  margin-bottom: 13%;
+  margin-top: 0;
 }
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -281,6 +287,9 @@ transition: 1s linear;
 
 a{
   text-decoration: none;
+}
+.soFar a:nth-of-type(1){
+  padding-right: 7%;
 }
 
 /* --------------------------------
