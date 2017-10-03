@@ -122,7 +122,7 @@ setInterval(function(){
   });
   var typed = new Typed('#bio', {
     strings: ["My name is Ali and I am studying my masters ( Databases and Web-Based Systems) as an international student. I am a 22 year old developer looking for an oppotunity to work and master my skills. Having studied in software engineering in my Bachelor, I can say I have a proper understanding of computer science and software development. I have experience in web development and designing full web sites (front-end and backend with database design). I enjoy learning new skills and this is what I trying to do everyday."],
-    typeSpeed: 30
+    typeSpeed: 15
   });
   var typed = new Typed('#cvT', {
     strings: ["Ali Kiyan CV"],

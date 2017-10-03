@@ -1,5 +1,6 @@
 body,h1,h2,h3,h4,h5,h6 {
-font-family: Avenir, sans-serif;
+  font-family: Dosis, sans-serif;
+  font-weight: 200;
 }
 body, html {
     height: 100%;
@@ -12,8 +13,8 @@ body, html {
 }
 .noU{
   text-decoration: none;
-  font-family: hermit, Avenire, "sans-serif";
-  /*font-weight: 200;*/
+  font-family: Roboto, sans-serif;
+  font-weight: 200;
 
 }
 #bio{
@@ -35,11 +36,21 @@ body, html {
 
 
 }
+
 .aliMain:hover{
   -webkit-transform: scale(1.04,1.04);
   -ms-transform: scale(1.04,1.04);
   transform: scale(1.04,1.04);
 
+}
+
+#myName{
+  font-family: Hermit, sans-serif;
+  font-weight: 200;
+}
+#cvT{
+  font-family: Dosis, sans-serif;
+  font-weight: 200;
 }
 #portfolio a
 {
@@ -54,6 +65,10 @@ body, html {
     font-family: 'Dosis', sans-serif ;
     font-weight: 800;
 
+}
+#about{
+  font-family: Dosis, sans-serif;
+  font-weight: 200;
 }
 
 /* First image (Logo. Full height) */
@@ -730,6 +745,11 @@ keyframes
 }
 #portfolio a {
   border-radius: 50px;
+}
+
+#portfolio{
+  font-family: Dosis, sans-serif;
+  font-weight: 300;
 }
 
 
