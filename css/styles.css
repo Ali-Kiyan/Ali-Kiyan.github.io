@@ -38,12 +38,11 @@ body, html {
 
 }
 
-.aliMain:hover{
+/*.aliMain:hover{
   -webkit-transform: scale(1.04,1.04);
   -ms-transform: scale(1.04,1.04);
   transform: scale(1.04,1.04);
-
-}
+}*/
 
 #myName{
   font-family: Hermit, sans-serif;
@@ -306,6 +305,7 @@ Stretchy Nav style - common to:
   top: 10%;
   right: 5%;
   pointer-events: none;
+
 }
 .cd-stretchy-nav .stretchy-nav-bg {
   /* this is the stretching navigation background */

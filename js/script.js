@@ -121,7 +121,7 @@ setInterval(function(){
     typeSpeed: 300
   });
   var typed = new Typed('#bio', {
-    strings: ["My name is Ali and I am studying my masters ( Databases and Web-Based Systems) as an international student. I am a 22 year old developer looking for an oppotunity to work and master my skills. Having studied in software engineering in my Bachelor, I can say I have a proper understanding of computer science and software development. I have experience in web development and designing full web sites (front-end and backend with database design). I enjoy learning new skills and this is what I trying to do everyday."],
+    strings: ["My name is Ali and I am an international student and I am studying my Masters in Manchester. Studying computer engineering(software) in my bachelors enabled me  to know different areas of computer science and development (especially web development and databases) have been one of the areas that I find it very rewarding. I love to learn and simply being better everyday and altough life has not been always easy for me, I try to accept its challenge. At this point of my life, I am looking for a graduate/junior role. I can relocate throughout the UK and I am looking for a postion where I can learn, take my skills to the next level, and work towards my objectives."],
     typeSpeed: 15
   });
   var typed = new Typed('#cvT', {
