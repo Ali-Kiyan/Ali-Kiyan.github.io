@@ -748,10 +748,6 @@ keyframes
 }
 
 
-@font-face {
-  font-family: "Hermit";
-  src: url("/fonts/Hermit.otf") format('opentype');
-}
 #portfolio a {
   border-radius: 50px;
 }
@@ -761,6 +757,10 @@ keyframes
   font-weight: 300;
 }
 
+@font-face {
+  font-family: "Hermit";
+  src: local(Hermit), url("../fonts/Hermit.otf") format("opentype");
+}
 
 @font-face {
   font-family: "Roboto";
