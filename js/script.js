@@ -1,3 +1,21 @@
+$(document).ready(function() {
+
+
+   setTimeout(function(){
+     $('body').addClass('loaded');
+
+   }, 700)
+});
+
+
+
+
+
+
+
+
+
+
 // Modal Image Gallery
 function onClick(element) {
     document.getElementById("img01").src = element.src;
@@ -5,6 +23,7 @@ function onClick(element) {
     var captionText = document.getElementById("caption");
     captionText.innerHTML = element.alt;
 }
+
 
 
 // sticky nav functionality
