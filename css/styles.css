@@ -222,7 +222,9 @@ body, html {
 /* First image (Logo. Full height) */
 .bgimg-1 {
     background-image: url('Https://Ali-Kiyan.github.io/images/11.jpg');
-    min-height: 750px;
+    min-height: 100%;
+    /*fixing responsive with aniamtion*/
+    /*min-height: 750px;*/
 
 
 }
@@ -809,7 +811,6 @@ main content basic style
      div#skills.row.animatedParent{
        margin-bottom: 250px;
      }
-
 
 }
 
