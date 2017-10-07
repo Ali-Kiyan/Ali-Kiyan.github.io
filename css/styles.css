@@ -67,7 +67,7 @@ body, html {
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #3498db;
+  border-top-color: #01579B;
   -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
         animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
   z-index: 1001;
@@ -82,7 +82,7 @@ body, html {
    bottom: 5px;
    border-radius: 50%;
    border: 3px solid transparent;
-   border-top-color: #e74c3c;
+   border-top-color: #EEFF41;
    -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
         animation: spin 1.5s  linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 
@@ -97,7 +97,7 @@ body, html {
    bottom: 15px;
    border-radius: 50%;
    border: 3px solid transparent;
-   border-top-color: #f9c922;
+   border-top-color: #37474F;
    -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
         animation: spin 1.5s  linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 
@@ -811,15 +811,9 @@ main content basic style
        margin-bottom: 250px;
      }
 
-}
-
-@media only screen and (min-width: 1280px) {}
-
-     video {
-       height: 750px;
-     }
 
 }
+
 
 
 /* --------------------------------
