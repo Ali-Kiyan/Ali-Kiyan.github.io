@@ -24,9 +24,9 @@ function onClick(element) {
     captionText.innerHTML = element.alt;
 }
 
-// // Look for .hamburger
-// var hamburger = document.querySelector(".hamburger");
-// // On click
+// Look for .hamburger
+var hamburger = document.querySelector(".hamburger");
+// On click
 // hamburger.addEventListener("click", function() {
 //   // Toggle class "is-active"
 //   hamburger.classList.toggle("is-active");
@@ -48,6 +48,7 @@ jQuery(document).ready(function(){
 			stretchyNavTrigger.on('click', function(event){
 				event.preventDefault();
 				stretchyNav.toggleClass('nav-is-visible');
+        hamburger.classList.toggle("is-active");
 			});
 		});
 
