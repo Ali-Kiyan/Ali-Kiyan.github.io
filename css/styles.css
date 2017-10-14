@@ -889,7 +889,7 @@ main content basic style
 }
 .owl-carousel h4{
   font-family: Dosis, serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 p#caption.w3-opacity.w3-large {
@@ -897,7 +897,7 @@ p#caption.w3-opacity.w3-large {
     font-size: 10rem;
 }
 .owl-carousel img{
-  width: 40% !important;
+  width: 60rem !important;
 }
 
 
