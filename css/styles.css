@@ -883,9 +883,23 @@ main content basic style
 
 
 }
+
+.owl-carousel {
+  margin-bottom: 100px !important;
+}
+.owl-carousel h4{
+  font-family: Dosis, serif;
+  font-size: 2rem;
+  text-align: center;
+}
+p#caption.w3-opacity.w3-large {
+    color: #fff ;
+    font-size: 10rem;
+}
 .owl-carousel img{
   width: 40% !important;
 }
+
 
 
 
