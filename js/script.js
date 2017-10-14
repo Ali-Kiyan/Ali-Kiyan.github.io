@@ -140,26 +140,26 @@ $('.mainT').css('margin-left',top + 'px');
 
 
 
-// bounce animation for new link laramedia
-setInterval(function(){
-    $('#laramedia').toggleClass('animated pulse');
-},1000);
-// bounce animation for new link campJS
-setInterval(function(){
-    $('#campJS').toggleClass('animated pulse');
-},1200);
-// bounce animation for new link for ge
-setInterval(function(){
-    $('#ge').toggleClass('animated pulse');
-},1500);
-//animating the email
+// // bounce animation for new link laramedia
 // setInterval(function(){
-//     $('#email').toggleClass('animated pulse');
-// },2000);
-//aniamting CV
-setInterval(function(){
-    $('#cv').toggleClass('animated wobble');
-},2100);
+//     $('#laramedia').toggleClass('animated pulse');
+// },1000);
+// // bounce animation for new link campJS
+// setInterval(function(){
+//     $('#campJS').toggleClass('animated pulse');
+// },1200);
+// // bounce animation for new link for ge
+// setInterval(function(){
+//     $('#ge').toggleClass('animated pulse');
+// },1500);
+// //animating the email
+// // setInterval(function(){
+// //     $('#email').toggleClass('animated pulse');
+// // },2000);
+// //aniamting CV
+// setInterval(function(){
+//     $('#cv').toggleClass('animated wobble');
+// },2100);
 
 
   var typed = new Typed('#myName', {
