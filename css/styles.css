@@ -883,6 +883,9 @@ main content basic style
 
 
 }
+.owl-carousel img{
+  width: 40% !important;
+}
 
 
 
