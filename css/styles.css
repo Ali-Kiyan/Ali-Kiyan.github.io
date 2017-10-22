@@ -901,7 +901,8 @@ p#caption.w3-opacity.w3-large {
   width: 30rem !important;
 }
 .pattern{
-  background-image: url("Https://Ali-Kiyan.github.io/images/pattern.jpg");
+  background-image: url("Https://Ali-Kiyan.github.io/images/subtle-pattern.png");
+  opacity: 20%;
 }
 .mid {
   width: 80%;
