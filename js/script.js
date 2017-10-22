@@ -23,7 +23,7 @@ $(document).ready(function(){
     autoplayTimeout:1000,
     stagePadding:30,
     autoplayHoverPause:true,
-    smartSpeed:4500
+    smartSpeed:45
   });
 
 });
