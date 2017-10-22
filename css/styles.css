@@ -6,7 +6,7 @@ body, html {
     height: 100%;
     color: #555;
     line-height: 1.8;
-    background-color: #FAFAFA;
+    background-color: #f4f5f6;
 }
 *, *::after, *::before {
   box-sizing: border-box;
@@ -901,13 +901,14 @@ p#caption.w3-opacity.w3-large {
   width: 30rem !important;
 }
 .pattern{
-  background-image: url("Https://Ali-Kiyan.github.io/images/subtle-pattern.png");
-  opacity: 20%;
+  background-image: url("Https://Ali-Kiyan.github.io/images/dev_pattern.jpg");
+  padding-bottom: 100px;
 }
 .mid {
   width: 80%;
   margin: 0 auto;
 }
+
 
 
 

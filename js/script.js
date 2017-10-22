@@ -16,8 +16,8 @@ $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
     animateOut: 'slideOutDown',
     animateIn: 'flipInX',
-    items:2,
-    loop:false,
+    items:1,
+    loop:true,
     margin:30,
     autoplay:true,
     autoplayTimeout:1000,
