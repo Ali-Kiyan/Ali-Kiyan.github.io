@@ -16,10 +16,14 @@ $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
     animateOut: 'slideOutDown',
     animateIn: 'flipInX',
-    items:1,
+    items:2,
+    loop:false,
     margin:30,
+    autoplay:true,
+    autoplayTimeout:1000,
     stagePadding:30,
-    smartSpeed:450
+    autoplayHoverPause:true,
+    smartSpeed:4500
   });
 
 });

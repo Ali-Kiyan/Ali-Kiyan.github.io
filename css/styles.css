@@ -882,10 +882,11 @@ main content basic style
      }
 
 
+
 }
 
 .owl-carousel {
-  margin-bottom: 100px !important;
+  margin-bottom: 200px !important;
 }
 .owl-carousel h4{
   font-family: Dosis, serif;
@@ -897,7 +898,14 @@ p#caption.w3-opacity.w3-large {
     font-size: 10rem;
 }
 .owl-carousel img{
-  width: 40% !important;
+  width: 30rem !important;
+}
+.pattern{
+  background-image: url("Https://Ali-Kiyan.github.io/images/pattern.jpg");
+}
+.mid {
+  width: 80%;
+  margin: 0 auto;
 }
 
 
