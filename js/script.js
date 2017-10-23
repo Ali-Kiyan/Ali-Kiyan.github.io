@@ -17,12 +17,8 @@ $(document).ready(function(){
     animateOut: 'slideOutDown',
     animateIn: 'flipInX',
     items:1,
-    loop:true,
     margin:30,
-    autoplay:true,
-    autoplayTimeout:1000,
     stagePadding:30,
-    autoplayHoverPause:true,
     smartSpeed:45
   });
 
