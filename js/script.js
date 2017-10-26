@@ -167,7 +167,7 @@ $('.mainT').css('margin-left',top + 'px');
     typeSpeed: 300
   });
   var typed = new Typed('#bio', {
-    strings: ["My name is Ali and I am a 22-year-old international student and I am studying my Masters in Manchester. Studying computer engineering(software) in my bachelors enabled me to know different areas of computer science and development (especially web development and databases) have been one of the areas that I find it very rewarding. I love to learn and simply being better everyday and altough life has not been always easy for me, I try to accept its challenge. At this point of my life, I am looking for a graduate/junior role. I can relocate throughout the UK and I am looking for a postion where I can learn, take my skills to the next level, and work towards my objectives."],
+    strings: ["My name is Ali and I am a 22-year-old international student and I am studying my Masters in Manchester. Studying computer engineering (software) in my bachelors enabled me to know different areas of computer science and development (especially web development and databases) have been one of the areas that I find it very rewarding. I love to learn and simply being better everyday and altough life has not been always easy for me, I try to accept its challenge. At this point of my life, I am looking for a graduate/junior role. I can relocate throughout the UK and I am looking for a postion where I can learn, take my skills to the next level, and work towards my objectives."],
     typeSpeed: 15
   });
   var typed = new Typed('#cvT', {
