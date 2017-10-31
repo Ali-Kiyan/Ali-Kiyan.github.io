@@ -241,7 +241,7 @@ body, html {
 .line-scale > div {
   background-color: #fff;
   width: 4px;
-  height: 35px;
+  height: 15px;
   border-radius: 2px;
   margin: 2px;
   -webkit-animation-fill-mode: both;
@@ -307,19 +307,6 @@ body, html {
           animation-duration: 0.72s; }
 
 
-.line-scale-party > div:nth-child(7) {
-  -webkit-animation-delay: 0.48s;
-          animation-delay: 0.48s;
-  -webkit-animation-duration: 0.54s;
-          animation-duration: 0.54s; }
-
-.line-scale-party > div:nth-child(8) {
-  -webkit-animation-delay: -0.15s;
-          animation-delay: -0.15s;
-  -webkit-animation-duration: 1.15s;
-          animation-duration: 1.15s; }
-
-
 .line-scale-party > div {
   background-color: #403630;
   width: 2px;
@@ -336,14 +323,20 @@ body, html {
   -webkit-animation-delay: 0;
           animation-delay: 0; }
 .section-left .line-scale-party {
-  text-align: center;
-  margin-top: 60%;
-  margin-left: 50%;
+  position: relative;
+  text-align: right;
+  top: 50%;
+  height: 100px;
+  margin-top: -30px;
+
 }
 .section-right .line-scale-party {
-  text-align: center;
-  margin-top: 60%;
-  margin-right: 50%;
+  text-align: left;
+  position: relative;
+  top: 50%;
+  height: 100px;
+  margin-top: -30px;
+
 }
 
 
