@@ -113,10 +113,10 @@ jQuery(document).ready(function(){
 // });
 
 
-stroke(container, 800, '#67809F', 0.9);
-stroke(container1, 800, '#67809F', 0.85);
+stroke(container, 800, '#67809F', 0.8);
+stroke(container1, 800, '#67809F', 0.45);
 stroke(container2, 1200, '#67809F', 0.75);
-stroke(container3, 1200, '#67809F', 0.9);
+stroke(container3, 1200, '#67809F', 0.7);
 
 //image scroll
 // var $win = $(window);
