@@ -163,12 +163,12 @@ $('.mainT').css('margin-left',top + 'px');
 
 
   var typed = new Typed('#myName', {
-    strings: ["Graduate Developer","Ali Kiyan"],
+    strings: ["Postgrad Developer","Ali Kiyan"],
     typeSpeed: 300
   });
   var typed = new Typed('#bio', {
-    strings: ["My name is Ali and I am a 22-year-old international student and I am studying my Masters in Manchester. Studying computer engineering (software) in my bachelors enabled me to know different areas of computer science and development (especially web development and databases) have been one of the areas that I find it very rewarding. I love to learn and simply being better everyday and altough life has not been always easy for me, I try to accept its challenge. At this point of my life, I am looking for a graduate/junior role. I can relocate throughout the UK and I am looking for a postion where I can learn, take my skills to the next level, and work towards my objectives."],
-    typeSpeed: 15
+    strings: ["My name is Ali and I am a 22-year-old international student and I have studied MSc Databases and web-based systems (Expecting Distinction) in Manchester. At this point of my life, I am looking for a graduate/junior role where I can gain hands-on experience and master my skills in web development and databases. I can relocate, and I am looking for a postion where I can learn, take my skills to the next level, and work towards my objectives. Since I am an international student, I will need tier 2 Sponsorship to be able to work in UK."],
+    typeSpeed: 25
   });
   var typed = new Typed('#cvT', {
     strings: ["Ali Kiyan CV"],
