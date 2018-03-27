@@ -18,7 +18,7 @@ $(document).ready(function(){
     items:1,
     margin:30,
     stagePadding:30,
-    smartSpeed:45
+    smartSpeed:65
   });
 
 });
@@ -206,10 +206,10 @@ $(document).on('scroll', function(){
   console.log( parseInt(y)-200);
   if(x > (parseInt(y)-200) ){
     if(c == 1){
-      stroke(container, 1800, '#589e54', 0.8);
-      stroke(container1, 1800, '#67809F', 0.45);
-      stroke(container2, 2200, '#68949f', 0.75);
-      stroke(container3, 2200, '#74689f', 0.7);
+      stroke(container, 2800, '#589e54', 0.8);
+      stroke(container1, 2800, '#67809F', 0.45);
+      stroke(container2, 2800, '#68949f', 0.75);
+      stroke(container3, 2800, '#74689f', 0.7);
       c = c+1;
     }
 
