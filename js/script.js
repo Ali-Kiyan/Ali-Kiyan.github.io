@@ -10,7 +10,6 @@ $(document).ready(function() {
 
 //Owl initializer funciton to prepare the carousel
 
-
 $(document).ready(function(){
 
   $(".owl-carousel").owlCarousel({
@@ -23,15 +22,6 @@ $(document).ready(function(){
   });
 
 });
-
-
-
-
-
-
-
-
-
 
 // Modal Image Gallery
 function onClick(element) {
@@ -113,10 +103,6 @@ jQuery(document).ready(function(){
 // });
 
 
-stroke(container, 800, '#67809F', 0.8);
-stroke(container1, 800, '#67809F', 0.45);
-stroke(container2, 1200, '#67809F', 0.75);
-stroke(container3, 1200, '#67809F', 0.7);
 
 //image scroll
 // var $win = $(window);
@@ -178,7 +164,7 @@ $('.mainT').css('margin-left',top + 'px');
   function stroke(name,duration, color, percentage){
         var bar = new ProgressBar.Line(name, {
               strokeWidth: 4,
-              easing: 'easeInOut',
+              easing: 'easeIn',
               duration: duration,
               color: color,
               trailColor: '#34495e',
@@ -212,3 +198,20 @@ $('.mainT').css('margin-left',top + 'px');
 
 document.querySelectorAll(".typed-cursor")[1].style.display = "none";
 document.querySelectorAll(".typed-cursor")[2].style.display = "none";
+  var c = 1;
+$(document).on('scroll', function(){
+  var x = $(window).scrollTop();
+  var y = $('#skills').offset().top;
+  console.log(x);
+  console.log( parseInt(y)-200);
+  if(x > (parseInt(y)-200) ){
+    if(c == 1){
+      stroke(container, 1800, '#589e54', 0.8);
+      stroke(container1, 1800, '#67809F', 0.45);
+      stroke(container2, 2200, '#68949f', 0.75);
+      stroke(container3, 2200, '#74689f', 0.7);
+      c = c+1;
+    }
+
+  }
+});
