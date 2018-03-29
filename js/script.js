@@ -1,5 +1,12 @@
 $(document).ready(function() {
-
+  $('#container').css('display', 'none');
+  $('#container1').css('display', 'none');
+  $('#container2').css('display', 'none');
+  $('#container3').css('display', 'none');
+  $('#icon').css('display', 'none');
+  $('#icon1').css('display', 'none');
+  $('#icon2').css('display', 'none');
+  $('#icon3').css('display', 'none');
 
    setTimeout(function(){
      $('body').addClass('loaded');
@@ -206,6 +213,22 @@ $(document).on('scroll', function(){
   console.log( parseInt(y)-200);
   if(x > (parseInt(y)-200) ){
     if(c == 1){
+      $('#container').css('display', 'block');
+      $('#container1').css('display', 'block');
+      $('#container2').css('display', 'block');
+      $('#container3').css('display', 'block');
+      $('#icon').css('display', 'block');
+      $('#icon1').css('display', 'block');
+      $('#icon2').css('display', 'block');
+      $('#icon3').css('display', 'block');
+      $('#container').addClass('animated fadeInRightShort');
+      $('#container1').addClass('animated fadeInLeftShort');
+      $('#container2').addClass('animated fadeInRightShort');
+      $('#container3').addClass('animated fadeInLeftShort');
+      $('#icon').addClass('animated fadeInRightShort');
+      $('#icon1').addClass('animated fadeInLeftShort');
+      $('#icon2').addClass('animated fadeInRightShort');
+      $('#icon3').addClass('animated fadeInLeftShort');
       stroke(container, 2800, '#589e54', 0.8);
       stroke(container1, 2800, '#67809F', 0.45);
       stroke(container2, 2800, '#68949f', 0.75);
