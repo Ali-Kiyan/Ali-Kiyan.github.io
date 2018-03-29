@@ -229,11 +229,16 @@ $(document).on('scroll', function(){
       $('#icon1').addClass('animated fadeInDown');
       $('#icon2').addClass('animated fadeInUp');
       $('#icon3').addClass('animated fadeInDown');
-      stroke(container, 2800, '#589e54', 0.8);
-      stroke(container1, 2800, '#67809F', 0.45);
-      stroke(container2, 2800, '#68949f', 0.75);
-      stroke(container3, 2800, '#74689f', 0.7);
-      c = c+1;
+
+      setTimeout(function(){
+        stroke(container, 3200, '#589e54', 0.8);
+        stroke(container1, 3200, '#67809F', 0.45);
+        stroke(container2, 3200, '#68949f', 0.75);
+        stroke(container3, 3200, '#74689f', 0.7);
+
+      }, 1000)
+
+        c = c+1;
     }
 
   }
