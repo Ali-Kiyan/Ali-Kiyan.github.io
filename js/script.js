@@ -23,9 +23,9 @@ $(document).ready(function(){
     animateOut: 'slideOutDown',
     animateIn: 'flipInX',
     items:1,
-    margin:30,
+    margin:10,
     stagePadding:30,
-    smartSpeed:65
+    fluidSpeed: true,
   });
 
 });
