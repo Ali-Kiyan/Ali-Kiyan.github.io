@@ -386,23 +386,23 @@ margin-top: 15%;
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('Https://Ali-Kiyan.github.io/images/11.jpg');
-    /*min-height: 100%;*/
+    background-image: url('https://Ali-Kiyan.github.io/images/555.jpg');
+    min-height: 100%;
     /*fixing responsive with aniamtion*/
-    min-height: 720px;
+    /* min-height: 720px; */
 
 
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url('https://Ali-Kiyan.github.io/images/14.jpg');
+    background-image: url('https://Ali-Kiyan.github.io/images/cityVerve.jpg');
     min-height: 600px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url('https://Ali-Kiyan.github.io/images/44.jpg');
+    background-image: url('https://Ali-Kiyan.github.io/images/14.jpg');
     min-height: 400px;
 }
 
