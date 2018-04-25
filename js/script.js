@@ -11,7 +11,7 @@ $(document).ready(function() {
    setTimeout(function(){
      $('body').addClass('loaded');
 
-   }, 2500)
+   }, 1500)
 });
 
 
@@ -160,7 +160,7 @@ $('.mainT').css('margin-left',top + 'px');
     typeSpeed: 300
   });
   var typed = new Typed('#bio', {
-    strings: ["My name is Ali and I am a 22-year-old international student and I have studied MSc Databases and web-based systems (Expecting Distinction) in Manchester. At this point of my life, I am looking for a graduate/junior role where I can gain hands-on experience and master my skills in web development and databases. I can relocate, and I am looking for a postion where I can learn, take my skills to the next level, and work towards my objectives. Since I am an international student, I will need tier 2 Sponsorship to be able to work in UK."],
+    strings: ["My name is Ali and I am a 22-year-old international student and I have studied MSc Databases and web-based systems (Expecting Distinction) in Manchester. I am actively looking for a role  in Software Engineering/Web Development and Databases. Since I am an international student, I will need tier 2 Sponsorship to be able to work in UK."],
     typeSpeed: 25
   });
   var typed = new Typed('#cvT', {
