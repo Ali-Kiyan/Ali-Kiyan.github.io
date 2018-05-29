@@ -160,8 +160,8 @@ $('.mainT').css('margin-left',top + 'px');
     typeSpeed: 300
   });
   var typed = new Typed('#bio', {
-    strings: ["My name is Ali and I am a 22-year-old international student and I have studied MSc Databases and web-based systems (Expecting Distinction) in Manchester. I am actively looking for a role  in Software Engineering/Web Development and Databases. Since I am an international student, I will need tier 2 Sponsorship to be able to work in UK."],
-    typeSpeed: 25
+    strings: ["My name is Ali and I am a 23-year-old international student. I am studing MSc Databases and web-based systems (Expecting Distinction) in Manchester. I am actively looking for a role  in Software Engineering/Web Development and Databases. Since I am an international student, I will need tier 2 Sponsorship to be able to work in UK."],
+    typeSpeed: 15
   });
   var typed = new Typed('#cvT', {
     strings: ["Ali Kiyan CV"],
