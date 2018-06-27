@@ -1,5 +1,5 @@
 User-agent: *
 Disallow: /images/1.jpg
 Disallow: /images
-
-
+Disallow: /images
+Disallow: /Files/Ali_Kiyan_CV.pdf
