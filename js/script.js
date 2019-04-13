@@ -156,15 +156,15 @@ $('.mainT').css('margin-left',top + 'px');
 
 
   var typed = new Typed('#myName', {
-    strings: ["Postgrad Developer","Ali Kiyan"],
+    strings: ["Full stack Web Engineer","Ali Kiyan"],
     typeSpeed: 300
   });
   var typed = new Typed('#bio', {
-    strings: ["My name is Ali and I am a 23-year-old international student. I am studing MSc Databases and web-based systems (Expecting Distinction) in Manchester. I am actively looking for a role  in Software Engineering/Web Development and Databases. Since I am an international student, I will need tier 2 Sponsorship to be able to work in UK."],
-    typeSpeed: 15
+    strings: ["I am a full stack web engineer who has been developing for a few of years now. I am passionate about learning and value clean, concise code and using best practices in my work. I will need tier 2 sponsorship to be able to work in the UK since I am currently on work visa."],
+    typeSpeed: 20
   });
   var typed = new Typed('#cvT', {
-    strings: ["Ali Kiyan CV"],
+    strings: ["Curriculum Vitae"],
     typeSpeed: 100
   });
 
