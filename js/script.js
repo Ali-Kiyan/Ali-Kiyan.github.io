@@ -160,7 +160,7 @@ $('.mainT').css('margin-left',top + 'px');
     typeSpeed: 300
   });
   var typed = new Typed('#bio', {
-    strings: ["I am a full stack web engineer who has been developing for a few of years now. I am passionate about learning and value clean, concise code and using best practices in my work. I will need tier 2 sponsorship to be able to work in the UK since I am currently on work visa."],
+    strings: ["I am a full stack web engineer who has been developing for a few years now. I value clean, concise code and using best practices in my work. I will need tier 2 sponsorship to be able to work in the UK since I am currently on work visa."],
     typeSpeed: 20
   });
   var typed = new Typed('#cvT', {
@@ -231,10 +231,10 @@ $(document).on('scroll', function(){
       $('#icon3').addClass('animated fadeInDown');
 
       setTimeout(function(){
-        stroke(container, 3200, '#589e54', 0.8);
+        stroke(container, 3200, '#589e54', 0.85);
         stroke(container1, 3200, '#67809F', 0.45);
         stroke(container2, 3200, '#68949f', 0.75);
-        stroke(container3, 3200, '#74689f', 0.7);
+        stroke(container3, 3200, '#74689f', 0.8);
 
       }, 1000)
 
