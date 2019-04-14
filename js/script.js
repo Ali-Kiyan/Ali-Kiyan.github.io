@@ -160,7 +160,7 @@ $('.mainT').css('margin-left',top + 'px');
     typeSpeed: 300
   });
   var typed = new Typed('#bio', {
-    strings: ["I am a full stack web engineer who has been developing for a few years now. I value clean, concise code and using best practices in my work. I will need tier 2 sponsorship to be able to work in the UK since I am currently on work visa."],
+    strings: ["I am a full stack web engineer who has been developing for a few years now. I value clean, concise solution to problems and using best practices in my work. I will need tier 2 sponsorship to be able to work in the UK since I am currently on work visa."],
     typeSpeed: 20
   });
   var typed = new Typed('#cvT', {

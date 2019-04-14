@@ -545,9 +545,11 @@ transition: 1s linear;
 }
 #linkedIn{
   text-decoration: none;
+  font-size: 3rem !important;
 }
 #GitHub{
   text-decoration: none;
+  font-size: 3rem !important;
 }
 
 #myNavbar{
@@ -586,7 +588,7 @@ transition: 1s linear;
 .footer-copyright{
     font-weight: 100;
     font-family: "Dosis", sans-serif !important;
-    padding: 3% 5% 0 0;
+    padding: 2% 5% 0 0;
 
 }
 
