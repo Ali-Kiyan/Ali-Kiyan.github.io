@@ -11,6 +11,11 @@ body, html {
 *, *::after, *::before {
   box-sizing: border-box;
 }
+
+
+.progressbar-text{
+  display: none;
+}
 .noU{
   text-decoration: none;
   font-family: Roboto, sans-serif;
