@@ -160,8 +160,8 @@ $('.mainT').css('margin-left',top + 'px');
     typeSpeed: 300
   });
   var typed = new Typed('#bio', {
-    strings: ["I am a full-stack web engineer with the focuse on Javscript related technologies such as ReactJS and NodeJS. I will require Tier 2 visa sponsorship to be able to work in the UK."],
-    typeSpeed: 20
+    strings: ["Full-stack web engineer with the focuse on Javscript related technologies such as ReactJS and NodeJS and LAMP stack. I will require Tier 2 visa sponsorship to be able to work in the UK."],
+    typeSpeed: 30
   });
   var typed = new Typed('#cvT', {
     strings: ["Curriculum Vitae"],
@@ -197,9 +197,7 @@ $('.mainT').css('margin-left',top + 'px');
                 bar.setText(Math.round(bar.value() * 100) + ' %');
               }
          });
-
         bar.animate(percentage);
-
    }
 
 
@@ -235,7 +233,6 @@ $(document).on('scroll', function(){
         stroke(container1, 3200, '#67809F', 0.45);
         stroke(container2, 3200, '#68949f', 0.75);
         stroke(container3, 3200, '#74689f', 0.8);
-
       }, 1000)
 
         c = c+1;
