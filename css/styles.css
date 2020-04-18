@@ -35,7 +35,7 @@ margin-top: 15%;
 }
 #fix-height-container{
   height: 20rem;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 .aliMain{
      padding: 20px;
