@@ -228,9 +228,9 @@ $(document).on('scroll', function(){
       $('#icon3').addClass('animated fadeInDown');
 
       setTimeout(function(){
-        stroke(container, 3200, '#589e54', 0.85);
-        stroke(container1, 3200, '#67809F', 0.45);
-        stroke(container2, 3200, '#68949f', 0.75);
+        stroke(container, 3200, '#589e54', 0.90);
+        stroke(container1, 3200, '#67809F', 0.65);
+        stroke(container2, 3200, '#68949f', 0.8);
         stroke(container3, 3200, '#74689f', 0.8);
       }, 1000)
 
