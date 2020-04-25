@@ -159,8 +159,8 @@ $('.mainT').css('margin-left',top + 'px');
     typeSpeed: 300
   });
   var typed = new Typed('#bio', {
-    strings: ["Full-stack web engineer with the focuse on Javscript related technologies such as ReactJS and NodeJS and LAMP stack. I will require Tier 2 visa sponsorship to be able to work in the UK."],
-    typeSpeed: 30
+    strings: ["Full-stack web engineer with focuse on Javscript in the back-end and front-end. I will require Tier 2 visa sponsorship to be able to work in the UK."],
+    typeSpeed: 40
   });
   var typed = new Typed('#cvT', {
     strings: ["Curriculum Vitae"],
