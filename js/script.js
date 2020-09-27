@@ -111,13 +111,9 @@ var typed = new Typed("#myName", {
 });
 var typed = new Typed("#bio", {
   strings: [
-    "Full-stack web engineer and MSc graduate in Databases and web systems. Lately, my focuse has been on ReactJS, NodeJS, Python and MySQL. I have been exposed with software developent life cycle and my main interest is in finding scalable and maintainable solutions to problems.",
+    "Full-stack web engineer with MSc in Databases and web systems. Lately, my focuse has been on ReactJS, NodeJS, Python and MySQL. I have been exposed with software developent life cycle and my interest is in finding scalable and maintainable solutions to problems.",
   ],
   typeSpeed: 40,
-});
-var typed = new Typed("#cvT", {
-  strings: ["Curriculum Vitae"],
-  typeSpeed: 100,
 });
 
 function stroke(name, duration, color, percentage) {
@@ -153,7 +149,7 @@ function stroke(name, duration, color, percentage) {
 }
 
 document.querySelectorAll(".typed-cursor")[1].style.display = "none";
-document.querySelectorAll(".typed-cursor")[2].style.display = "none";
+
 var c = 1;
 $(document).on("scroll", function () {
   var x = $(window).scrollTop();
