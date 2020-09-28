@@ -106,7 +106,7 @@ $win.on("scroll", function (s) {
 
 
 var typed = new Typed("#myName", {
-  strings: ["Full stack Web Engineer", "Ali Kiyan"],
+  strings: ["Full stack Web Engineer", "Ali"],
   typeSpeed: 300,
 });
 var typed = new Typed("#bio", {
