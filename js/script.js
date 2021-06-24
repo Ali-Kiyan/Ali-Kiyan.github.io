@@ -62,7 +62,6 @@ jQuery(document).ready(function () {
   }
 });
 
-
 // Used to toggle the menu on small screens when clicking on the menu button
 // function toggleFunction() {
 //     var x = document.getElementById("navDemo");
@@ -102,8 +101,6 @@ $win.on("scroll", function (s) {
   top = top / 4;
   $(".mainT").css("margin-left", top + "px");
 });
-
-
 
 var typed = new Typed("#myName", {
   strings: ["Full stack Web Engineer", "Ali"],
@@ -154,8 +151,6 @@ var c = 1;
 $(document).on("scroll", function () {
   var x = $(window).scrollTop();
   var y = $("#skills").offset().top;
-  console.log(x);
-  console.log(parseInt(y) - 200);
   if (x > parseInt(y) - 200) {
     if (c == 1) {
       $("#container").css("display", "block");
@@ -166,20 +161,21 @@ $(document).on("scroll", function () {
       $("#icon1").css("display", "block");
       $("#icon2").css("display", "block");
       $("#icon3").css("display", "block");
-      $("#container").addClass("animated fadeInUp");
+      $("#container").addClass("animated slideInRight");
+      $("#container").addClass("animated slideInLeft");
       $("#container1").addClass("animated fadeInDown");
       $("#container2").addClass("animated fadeInUp");
-      $("#container3").addClass("animated fadeInDown");
+      $("#container3").addClass("animated slideInRight");
       $("#icon").addClass("animated fadeInUp");
       $("#icon1").addClass("animated fadeInDown");
-      $("#icon2").addClass("animated fadeInUp");
+      $("#icon2").addClass("animated slideInLeft");
       $("#icon3").addClass("animated fadeInDown");
 
       setTimeout(function () {
-        stroke(container, 3200, "#589e54", 0.9);
-        stroke(container1, 3200, "#67809F", 0.65);
-        stroke(container2, 3200, "#68949f", 0.8);
-        stroke(container3, 3200, "#74689f", 0.8);
+        stroke(container, 3200, "#ff073a", 0.9);
+        stroke(container1, 3200, "#fdee73", 0.65);
+        stroke(container2, 3200, "#1b2431", 0.6);
+        stroke(container3, 3200, "#cfff04", 0.8);
       }, 1000);
 
       c = c + 1;
