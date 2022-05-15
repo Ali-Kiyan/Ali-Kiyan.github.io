@@ -1,9 +1,10 @@
-
+💻 👾 🎵
 
 ### Skills
 
 <p align="left"> <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a> <a href="https://redux.js.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/redux-colored.svg" width="36" height="36" alt="Redux" /></a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="36" height="36" alt="React" /></a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a> <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="36" height="36" alt="PostgreSQL" /></a> </p> 
-
+ ### Socials  <p align="left"> <a href="https://www.github.com/Ali-kiyan" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a></p>
+### Badges
 
 <b>My GitHub Stats</b>
 
@@ -14,6 +15,6 @@
 
 <div width="100%" align="center"><a href="https://github.com/Ali-kiyan/popularity_classification_on_spotify_music_dataset" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Ali-kiyan&repo=popularity_classification_on_spotify_music_dataset&title_color=ffffff&text_color=ffffff&icon_color=ec4899&bg_color=27272a&hide_border=true&locale=en" /></a><a href="https://github.com/Ali-kiyan/Clustering-Algorithm-for-Music-Recommendation-System" align="right"><img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Ali-kiyan&repo=Clustering-Algorithm-for-Music-Recommendation-System&title_color=ffffff&text_color=ffffff&icon_color=ec4899&bg_color=27272a&hide_border=true&locale=en" /></a></div><br /><br /><br /><br /><br /><br /><br />
 
-<br />
+<br /><br /><br /><br /><br />
 
 <div width="100%" align="center"><a href="https://github.com/Ali-kiyan/footballApp" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Ali-kiyan&repo=footballApp&title_color=ffffff&text_color=ffffff&icon_color=ec4899&bg_color=27272a&hide_border=true&locale=en" /></a><a href="https://github.com/Ali-kiyan/3D_CUBE_OpenGL" align="right"><img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Ali-kiyan&repo=3D_CUBE_OpenGL&title_color=ffffff&text_color=ffffff&icon_color=ec4899&bg_color=27272a&hide_border=true&locale=en" /></a></div>
