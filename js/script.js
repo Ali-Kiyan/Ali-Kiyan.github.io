@@ -103,14 +103,14 @@ $win.on("scroll", function (s) {
 });
 
 var typed = new Typed("#myName", {
-  strings: ["Full stack Web Engineer", "Ali"],
-  typeSpeed: 300,
+  strings: ["Software engineer", "Ali"],
+  typeSpeed: 10,
 });
 var typed = new Typed("#bio", {
   strings: [
-    "Full-stack web engineer with MSc in Databases and web systems. Lately, my focuse has been on ReactJS, NodeJS, Python and MySQL. I have been exposed with software developent life cycle and my interest is in finding scalable and maintainable solutions to problems.",
+    "Software engineer with MSc in Databases and web systems and 5+ years of experience in software industy. Recently I have mainly used NextJS, Typescript, Java, Spring, Postgres, Kubernetes and Helm charts.",
   ],
-  typeSpeed: 40,
+  typeSpeed: 10,
 });
 
 function stroke(name, duration, color, percentage) {
