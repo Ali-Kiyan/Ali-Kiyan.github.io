@@ -104,13 +104,13 @@ $win.on("scroll", function (s) {
 
 var typed = new Typed("#myName", {
   strings: ["Software engineer", "Ali"],
-  typeSpeed: 10,
+  typeSpeed: 500,
 });
 var typed = new Typed("#bio", {
   strings: [
     "Software engineer with MSc in Databases and web systems and 5+ years of experience in software industy. Recently I have mainly used NextJS, Typescript, Java, Spring, Postgres, Kubernetes and Helm charts.",
   ],
-  typeSpeed: 10,
+  typeSpeed: 500,
 });
 
 function stroke(name, duration, color, percentage) {
